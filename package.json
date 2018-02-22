@@ -1,0 +1,16 @@
+{
+  "name": "quantox",
+  "version": "1.0.0",
+  "description": "Quantox interview task\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dpre-interview task",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Milan Krstic",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

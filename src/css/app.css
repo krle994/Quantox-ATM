@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%; }
+
+section.landing {
+  background-color: #333;
+  background-image: url("../assets/card.jpeg");
+  background-size: cover;
+  padding: 3rem 0;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section.landing .card {
+    width: 70%;
+    background-color: #cfcfcf;
+    opacity: .8;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    section.landing .card h1.app-name {
+      font-family: 'Raleway', Arial, sans-serif;
+      font-size: 3.4rem;
+      font-weight: 200;
+      padding: 4rem 0 1.5rem 0; }
+    section.landing .card h4.slogan {
+      font-family: 'Raleway', Arial, sans-serif;
+      padding: 1rem 0 2rem 0;
+      color: #26547c; }
+    section.landing .card button.find {
+      padding: 1rem 3rem;
+      margin: 2rem 0 3rem;
+      border: 2px solid #333;
+      border-radius: 25px;
+      cursor: pointer;
+      font-family: 'Raleway', Arial, sans-serif;
+      font-size: 1.2rem;
+      -webkit-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+      -moz-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+      -ms-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+      -o-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out; }
+      section.landing .card button.find:focus {
+        outline: 0; }
+      section.landing .card button.find:hover {
+        background-color: #838383;
+        color: #ededed; }
+
+.atm-list {
+  text-align: center;
+  padding: 1rem 0 2rem 0; }
+  .atm-list .bank-name {
+    padding: 2rem 0;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic; }
+  .atm-list .distance {
+    padding-bottom: 2rem;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 500; }
+  .atm-list .map-img {
+    opacity: 1;
+    border: 1px solid #333;
+    border-radius: 7px;
+    margin-bottom: 2rem; }
+  .atm-list hr {
+    border-color: #848484; }
+
+@media screen and (max-width: 768px) {
+  section.landing .card {
+    width: 95%; }
+    section.landing .card h1.app-name {
+      font-size: 2.7rem;
+      text-align: center; }
+    section.landing .card h2.slogan {
+      font-size: 2rem;
+      padding-bottom: 3rem; }
+  .atm-list .map-img {
+    max-width: 330px;
+    height: auto; } }
